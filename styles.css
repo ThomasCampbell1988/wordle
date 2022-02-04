@@ -1,0 +1,38 @@
+h1{
+  font-size: xx-large;
+  padding: 16px;
+}
+
+.row {
+  display: grid;
+  width: 500px;
+  height: 100px;
+  grid-template-columns: repeat(6, 1fr);
+}
+
+input {
+  font-size: xx-large;
+  text-align: center;
+  margin: 4px;
+}
+
+input[type=text] {
+  text-transform: uppercase;
+}
+
+.partial-match {
+  background-color: yellow;
+}
+
+.perfect-match {
+  background-color: green;
+}
+
+fieldset {
+  border: 0px solid lightgray;
+}
+
+span {
+  color: red;
+  margin-left: 16px;
+}
