@@ -100,7 +100,7 @@ function onSubmit(event) {
     } else {
       currentRow++;
       if(currentRow >= 6) {
-        setTimeout(() => {alert(`Sorry you lost the word was ${targetWord.toUpperCase()}`);}, 100)
+        setTimeout(() => {alert(`Sorry you lost, the word was ${targetWord.toUpperCase()}`);}, 100)
       } else {
         const nextFieldSet = document.querySelectorAll("form")[currentRow].querySelector("fieldset");
         nextFieldSet.disabled = false;
