@@ -16,6 +16,10 @@ input {
   margin: 4px;
 }
 
+input:disabled {
+  color: black;
+}
+
 input[type=text] {
   text-transform: uppercase;
 }
