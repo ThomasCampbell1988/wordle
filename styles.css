@@ -18,6 +18,8 @@ input {
 
 input:disabled {
   color: black;
+  -webkit-text-fill-color: black;
+  opacity: 1; /* required on iOS */
 }
 
 input[type=text] {
