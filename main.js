@@ -1,11 +1,3 @@
-const candidateTargetWords = [
-  "roger", "abets", "rille", "gawps", "cynic", "locum", "rider",
-  "ditch", "lifes", "pearl", "yikes", "faced", "mafia", "words",
-  "steer", "talon", "begun", "manic", "medal", "state", "humps",
-  "balsa", "banjo", "halve", "canon", "blurb", "signs", "torus",
-  "plums", "tweet", "friar", "might", "index", "coder", "fiend"
-]
-
 const targetWord = candidateTargetWords[ Math.floor(Math.random() * candidateTargetWords.length) ];
 
 // console.log(targetWord, "targetWord");
@@ -136,6 +128,8 @@ function updateInputs(guess, textInputs) {
     if(partialIndex >= 0) {
       textInputs[index].classList.add("partial-match");
       nonPerfectTargetLetters.splice(partialIndex, 1);
+    } else {
+      textInputs[index].classList.add("mismatch");
     }
   })
 }

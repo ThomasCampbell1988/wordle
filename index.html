@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body>
-    <h1>Wordle</h1>
+    <header>
+      <h1>Wordle</h1>
+    </header>
     <div>
       <form onsubmit="onSubmit(event)">
         <fieldset>
@@ -16,7 +18,7 @@
             <input type="text" size="1" maxlength="1" onkeydown="return onKeyDown(event)" oninput="onInput(event)" required autocomplete="off">
             <input type="text" size="1" maxlength="1" onkeydown="return onKeyDown(event)" oninput="onInput(event)" required autocomplete="off">
             <input type="text" size="1" maxlength="1" onkeydown="return onKeyDown(event)" oninput="onInput(event)" required autocomplete="off">
-            <input type="submit" value="Guess" onkeydown="onKeyDown(event)">
+            <input type="submit" value="&#8617" onkeydown="onKeyDown(event)">
           </div>
         </fieldset>
         <p><span class="error"></span></p>
@@ -30,7 +32,7 @@
             <input type="text" size="1" maxlength="1" onkeydown="return onKeyDown(event)" oninput="onInput(event)" required autocomplete="off">
             <input type="text" size="1" maxlength="1" onkeydown="return onKeyDown(event)" oninput="onInput(event)" required autocomplete="off">
             <input type="text" size="1" maxlength="1" onkeydown="return onKeyDown(event)" oninput="onInput(event)" required autocomplete="off">
-            <input type="submit" value="Guess" onkeydown="onKeyDown(event)">
+            <input type="submit" value="&#8617" onkeydown="onKeyDown(event)">
         </div>
         </fieldset>
         <p><span class="error"></span></p>
@@ -44,7 +46,7 @@
             <input type="text" size="1" maxlength="1" onkeydown="return onKeyDown(event)" oninput="onInput(event)" required autocomplete="off">
             <input type="text" size="1" maxlength="1" onkeydown="return onKeyDown(event)" oninput="onInput(event)" required autocomplete="off">
             <input type="text" size="1" maxlength="1" onkeydown="return onKeyDown(event)" oninput="onInput(event)" required autocomplete="off">
-            <input type="submit" value="Guess" onkeydown="onKeyDown(event)">
+            <input type="submit" value="&#8617" onkeydown="onKeyDown(event)">
         </div>
         </fieldset>
         <p><span class="error"></span></p>
@@ -58,7 +60,7 @@
             <input type="text" size="1" maxlength="1" onkeydown="return onKeyDown(event)" oninput="onInput(event)" required autocomplete="off">
             <input type="text" size="1" maxlength="1" onkeydown="return onKeyDown(event)" oninput="onInput(event)" required autocomplete="off">
             <input type="text" size="1" maxlength="1" onkeydown="return onKeyDown(event)" oninput="onInput(event)" required autocomplete="off">
-            <input type="submit" value="Guess" onkeydown="onKeyDown(event)">
+            <input type="submit" value="&#8617" onkeydown="onKeyDown(event)">
         </div>
         </fieldset>
         <p><span class="error"></span></p>
@@ -72,7 +74,7 @@
             <input type="text" size="1" maxlength="1" onkeydown="return onKeyDown(event)" oninput="onInput(event)" required autocomplete="off">
             <input type="text" size="1" maxlength="1" onkeydown="return onKeyDown(event)" oninput="onInput(event)" required autocomplete="off">
             <input type="text" size="1" maxlength="1" onkeydown="return onKeyDown(event)" oninput="onInput(event)" required autocomplete="off">
-            <input type="submit" value="Guess" onkeydown="onKeyDown(event)">
+            <input type="submit" value="&#8617" onkeydown="onKeyDown(event)">
         </div>
         </fieldset>
         <p><span class="error"></span></p>
@@ -86,13 +88,14 @@
             <input type="text" size="1" maxlength="1" onkeydown="return onKeyDown(event)" oninput="onInput(event)" required autocomplete="off">
             <input type="text" size="1" maxlength="1" onkeydown="return onKeyDown(event)" oninput="onInput(event)" required autocomplete="off">
             <input type="text" size="1" maxlength="1" onkeydown="return onKeyDown(event)" oninput="onInput(event)" required autocomplete="off">
-            <input type="submit" value="Guess" onkeydown="onKeyDown(event)">
+            <input type="submit" value="&#8617" onkeydown="onKeyDown(event)">
         </div>
         </fieldset>
         <p><span class="error"></span></p>
       </form>
     </div>
 
+    <script src="./targetWords.js"></script>
     <script src="./validGuesses.js"></script>
     <script src="main.js"></script>
   </body>
